@@ -1,0 +1,102 @@
+.App {
+  text-align: center;
+  font-family: arial;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.Menu {
+  width: 500px;
+  height: 500px;
+  border-radius: 10px;
+  background-color: lightcoral;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.Menu label{
+  font-size: 22px;
+  color: black;
+  margin-bottom: 25px;
+}
+.Menu input, button {
+  width: 300px;
+  height: 50px;
+  margin: 5px;
+  border:black;
+  border-radius: 5px;
+  
+  font-size: 20px;
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: rgb(230, 183, 176);
+}
+
+.Quiz {
+  width: 500px;
+  height: 500px;
+  border-radius: 10px;
+  background-color: lightcoral;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.Menu, .Quiz, .EndScreen h1 {
+  color: rgb(108, 12, 12);
+}
+
+.EndScreen {
+  width: 500px;
+  height: 500px;
+  border-radius: 10px;
+  background-color: lightcoral;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#nextQuestion {
+  width: 200px;
+}
+
+h3 {
+  color: #ffffff;
+
+}
+
+.button-row {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.button-row button {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  width: 100px;
+  font-size: 15px;
+}
+
+.options button {
+  transition: background-color 0.3s ease;
+}
+
+
+
+button:hover {
+  cursor: pointer;
+}
+.selected-option {
+  background-color: #4caf50; 
+  color: white;
+}
